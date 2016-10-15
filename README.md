@@ -23,9 +23,9 @@ This is a generic framework for testing all flavors of FIDO stuff.
 
 ## External Authenticators 
 
-* USB: download [USB Proxy]() (not yet written)
-* NFC: download [NFC Proxy]() (not yet written)
-* BLE: download [BLE Proxy]() (not yet written)
+* USB: download [USB Proxy](https://github.com/google/u2f-ref-code/tree/master/u2f-tests/HID) (not yet written)
+* NFC: download [NFC Proxy](https://github.com/google/u2f-ref-code/tree/master/u2f-tests/NFC) (not yet written)
+* BLE: download [BLE Proxy](https://github.com/fido-alliance/u2f-ble-test) (not yet written)
 
 ## How this code is organized
 
