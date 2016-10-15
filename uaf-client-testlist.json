@@ -1,0 +1,7 @@
+{
+    "helpers": [],
+    "tests": [
+        "test/uaf/auth/Client-Auth-Req-1-F-1-1_more_than_one_dict.js",
+        "test/uaf/auth/Client-Auth-Req-2-F-1-1_header_null.js"
+    ]
+}

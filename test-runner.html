@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>UAF DOM API Tests</title>
+  <link href="css/mocha-2.2.5.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="lib/mocha-2.2.5.js"></script>
+  <script>mocha.setup('bdd')</script>
+
+  <!-- load helper files here -->
+  <!-- <script src="lib/uaf-server.js"></script> -->
+  <!-- <script src="helper/default-message.js"></script> -->
+
+  <!-- load test files here -->
+  <script src="test/uaf/auth/Client-Auth-Req-1-F-1-1_more_than_one_dict.js"></script>
+  <script src="test/uaf/auth/Client-Auth-Req-2-F-1-1_header_null.js"></script>
+  <!-- ... -->
+  <!-- TODO: rather than loading in tests statically, this should use a test list JSON 
+             and iterate through all the tests in the test list to load them all -->
+
+  <script>
+    mocha.checkLeaks();
+    mocha.run();
+    // TODO: after mocha.run() is done, gather up results and upload to server
+  </script>
+</body>
+</html>
